@@ -42,7 +42,7 @@ const App = () => {
   };
 
   return (
-    <div className={styles.wrapper}>
+    <div className={`${styles.wrapper} container`}>
       <h1>Stopwatch</h1>
       <h2>Vanilla JavaScript Stopwatch</h2>
       <p>
